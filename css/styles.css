@@ -1,13 +1,18 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-}
-
 :root {
   --title-color: #2E2F42;
   --text-color: #434455;
   --first-background: #FFFFFF;
   --second-background: #2E2F42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.link{
+  text-decoration: none;
 }
 
 .header-logo {
@@ -16,7 +21,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -25,13 +29,7 @@ body {
   color: var(--title-color);
 }
 
-.project-list,
-.filter-list,
-.team-list,
-.services-list,
-.feature-list,
-.header-list,
-.header-adress-list {
+.list {
   list-style: none;
 }
 
@@ -41,7 +39,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--title-color);
 }
 
@@ -51,7 +48,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -71,11 +67,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--first-background);
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,6 +107,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
@@ -119,11 +117,16 @@ body {
   background-color: #f4f4fd;
 }
 
+.team-list-item{
+  background-color: #FFFFFF
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: var(--title-color);
 }
@@ -149,12 +152,11 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -172,7 +174,7 @@ body {
 }
 
 .filter-btn {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
