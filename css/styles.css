@@ -51,6 +51,10 @@ body {
   color: var(--text-color);
 }
 
+.header-adress{
+  font-style: normal;
+}
+
 .header-item-link:hover,
 .header-item-link:focus,
 .header-adress-link:hover,
